@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var s4l = require("../s4l.js");
+
+process.stdin.on("data",function(c){
+  console.log(s4l((c+"").trim()));
+}).resume();

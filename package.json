@@ -1,0 +1,14 @@
+{
+  "name": "s4l",
+  "version": "0.0.0",
+  "description": "Sort the CSS properties for LESS",
+  "main": "s4l.js",
+  "bin": {
+    "s4l": "./bin/s4l"
+  },
+  "keywords": [
+    "less"
+  ],
+  "author": "@zaftzaft",
+  "license": "MIT"
+}
