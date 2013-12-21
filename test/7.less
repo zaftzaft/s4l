@@ -1,10 +1,10 @@
 // 7: Inline Variable
 @font-face {
-  @FontPath: "./fonts";
-  font-family: 'Hoge Font';
-  src: url('@{FontPath}/hoge.eot');
   src: url('@{FontPath}/hoge.eot?#iefix') format('embedded-opentype'),
        url('@{FontPath}/hoge.woff') format('woff'),
        url('@{FontPath}/hoge.ttf') format('truetype'),
        url('@{FontPath}/hoge.svg#fuga') format('svg');
+  src: url('@{FontPath}/hoge.eot');
+  font-family: 'Hoge Font';
+  @FontPath: "./fonts";
 }
